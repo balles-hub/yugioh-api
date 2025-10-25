@@ -31,8 +31,6 @@ const episodios = [
 
 
 
-module.exports = episodios;
-
 
 app.get("/", (req, res) => res.send("API do Yu-Gi-Oh está rodando!"));
 
