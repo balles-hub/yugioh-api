@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -26,8 +25,11 @@ const episodios = [
   { "id": 16, "titulo": "Episódio 16", "url": "https://res.cloudinary.com/dbqhmedpc/video/upload/v1761401499/16_p16jun.mp4" },
   { "id": 17, "titulo": "Episódio 17", "url": "https://res.cloudinary.com/dbqhmedpc/video/upload/v1761400925/17_ic9cpm.mp4" },
   { "id": 18, "titulo": "Episódio 18", "url": "https://res.cloudinary.com/dbqhmedpc/video/upload/v1761401014/18_qwhm9t.mp4" },
-  { "id": 19, "titulo": "Episódio 19", "url": "https://res.cloudinary.com/dbqhmedpc/video/upload/v1761402863/19_tcmbpf.mp4" }
+  { "id": 19, "titulo": "Episódio 19", "url": "https://res.cloudinary.com/dbqhmedpc/video/upload/v1761402863/19_tcmbpf.mp4" },
+  { "id": 20, "titulo": "Episódio 20", "url": "https://res.cloudinary.com/dbqhmedpc/video/upload/v1761403753/20_zwvp5s.mp4" }
 ];
+
+
 
 module.exports = episodios;
 
