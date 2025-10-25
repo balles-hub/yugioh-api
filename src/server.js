@@ -25,7 +25,7 @@ const temporadasConfig = [
   { temporada: 2, min: 41, max: 80 },
   { temporada: 3, min: 81, max: 120 },
   { temporada: 4, min: 121, max: 160 },
-  { temporada: 5, min: 161, max: 200 }
+  { temporada: 5, min: 161, max: 250 }
 ];
 
 // Função para determinar a temporada com base no número do vídeo
